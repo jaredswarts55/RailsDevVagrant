@@ -1,0 +1,25 @@
+ruby::ruby_version: "1.9"
+ruby::system_users:
+  - vagrant
+ruby::gemset_name: "ruby-1.9@default"
+ruby::gems:
+  bundler:  'present'
+  sass:     'present'
+  compass:  'present'
+  rails:    'present'
+
+nodejs_profile::manage_repo: true
+nodejs_profile::version: present
+nodejs_profile::npms:
+  grunt-cli: 'present'
+  bower:     'present'
+
+# You can add apt-get packages in this section
+apt_packages_profile::packages:
+  tmux:               'installed'
+  libmysqlclient-dev: 'installed'
+  libxslt-dev:        'installed'
+  libxml2-dev:        'installed'
+  build-essential:    'installed'
+
+java::distribution: 'jre'
