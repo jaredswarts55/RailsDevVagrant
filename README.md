@@ -1,5 +1,6 @@
-RailsDevVagrant
+Rails Dev Vagrant
 ===============
+This is a Vagrant configuration to do rails app development
 
 You will need to edit Vagrantfile and update the line:
 
